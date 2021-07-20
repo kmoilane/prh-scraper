@@ -1,0 +1,19 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    background-color: bisque;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+td {
+    min-width: 150px;
+    min-height: 1px;
+    border: 1px solid black;
+}
