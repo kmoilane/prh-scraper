@@ -1,19 +1,50 @@
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 5px solid teal;
+}
+
+.container form {
+	width: 75%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
 }
 
 table {
-    background-color: bisque;
-    border: 1px solid black;
-    border-collapse: collapse;
-
+	width: 95%;
+	margin: 0 auto;
+	background-color: bisque;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
 }
 
 td {
-    min-width: 150px;
-    min-height: 1px;
-    border: 1px solid black;
+	min-width: 150px;
+	min-height: 1px;
+	border: 1px solid black;
+}
+
+#output {
+	list-style: none;
+}
+
+#output li {
+	cursor: pointer;
+	height: 30px;
+	border: 1px solid black;
+	border-collapse: collapse;
 }
